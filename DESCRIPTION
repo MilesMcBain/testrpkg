@@ -1,0 +1,16 @@
+Package: testrpkg
+Title: A package on Github for testing packages on GitHub.
+Version: 1.0.0
+Authors@R: 
+    person(given = "Miles",
+           family = "McBain",
+           role = c("aut", "cre"),
+           email = "miles.mcbain@gmail.com")
+Description: Exists on GitHub for testing.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
