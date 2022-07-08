@@ -1,6 +1,6 @@
 Package: testrpkg
 Title: A package on Github for testing packages on GitHub.
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     person(given = "Miles",
            family = "McBain",
@@ -26,4 +26,7 @@ Imports:
     readr (>= 1.2.0),
     clipr (>= 0.3.0),
     rstudioapi (>= 0.6),
-    methods
+    methods,
+    testrpkg2 (>= 1.0.0)
+Remotes:  
+    milesmcbain/testrpkg2

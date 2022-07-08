@@ -10,5 +10,5 @@
 #' test()
 #' @export
 test <- function(test = "test") {
-    test
+    testrpkg2::test(test)
 }
